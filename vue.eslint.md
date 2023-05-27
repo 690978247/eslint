@@ -143,7 +143,6 @@ module.exports = {
 
 保存之后若有插件未安装, `vscode`会提醒安装插件
 
-
 `配置 VS Code 的项目本地配置文件 .vscode/settings.json` 文件 => 首选项 => 设置 => setting.json
 
 ```config
@@ -184,4 +183,4 @@ module.exports = {
 
 ## 取消eslint校验(不推荐取消)
 
-找到 `vite.config.js | vue.config.js` 文件。 进行如下设置 `lintOnSave: false` 即可 
+找到 `vite.config.js | vue.config.js` 文件。 进行如下设置 `lintOnSave: false` 即可
